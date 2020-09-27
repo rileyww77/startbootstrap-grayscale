@@ -74,6 +74,15 @@ body {
   outline: 0 !important;
 }
 
+.headshot {
+  max-width: 100%;
+  height: auto;
+  border-right: 6px solid #64A19D;
+  border-top: 6px solid #64A19D;
+  border-left: 6px solid black;
+  border-bottom: 6px solid black;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -485,17 +494,6 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
-}
-
-.headshot{
-  max-width: 100%;
-  height: auto;
-  border-left: 6px solid black;
-  border-bottom: 6px solid black;
-  border-top: 6px solid #64A19D;
-  border-right: 6px solid #64A19D;
-  border-radius: 5px;
-  margin-bottom: 10px
 }
 
 .figure {
